@@ -5,7 +5,7 @@ function renderButtons() {
   $("#buttons").empty();
 
   for (var i = 0; i < characters.length; i++) {
-    var newButton = $("<button class='btn btn-lg btn-info m-2'>").text(characters[i]);
+    var newButton = $("<button class='btn btn-lg btn-info m-3'>").text(characters[i]);
     newButton.attr("character-name", characters[i]);
     $("#buttons").append(newButton);
   }
