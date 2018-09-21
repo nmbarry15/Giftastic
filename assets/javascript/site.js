@@ -31,7 +31,7 @@ function showGIFS() {
   $(".gifview").empty();
 
   var character = $(this).attr("character-name");
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + character + "&api_key=94seWm1lW1J7gltQpmkPEtUo8Txlcwxl&limit=10"
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + character + "&api_key=94seWm1lW1J7gltQpmkPEtUo8Txlcwxl&limit=10"
 
   $.ajax({
     url: queryURL,
