@@ -1,0 +1,13 @@
+body{
+    font-family: 'WaltographRegular'; 
+    font-size: 25px;
+}
+
+button{
+    font-family: 'WaltographRegular'; 
+    font-size: 25px;
+}
+
+.container{
+    background-color: rgba(160, 156, 163, 0.87);   
+}
